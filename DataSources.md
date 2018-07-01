@@ -22,8 +22,8 @@ These connections allow analysing factors like Cooking Techniques, Biology of Mo
 
 ## EXPLORING PROJECT's DATABASE
 
-If you want to explore the documentation of the database and the meaning of each field, please use the ShinyApp designed for that: http://mariplaza.shinyapps.io/dscooking_db_explorer
+If you want to explore the documentation of the database and the meaning of each field, please use the ShinyApp designed for that: http://mariplaza.shinyapps.io/dscooking_db_explorer (Coming Soon!)
 
 ## ACCESS TO PROJECT's DATABASE
 
-If you want to have access to the database please contact me though LinkedIn [https://www.linkedin.com/in/maria-ines-plaza-schwarck-9825962/]
+If you want to have access to the database please contact me though [LinkedIn](https://www.linkedin.com/in/maria-ines-plaza-schwarck-9825962/)
