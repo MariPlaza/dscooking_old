@@ -8,12 +8,12 @@ These connections allow analysing factors like Cooking Techniques, Biology of Mo
 
 ## SOURCES
 
-- FoodDB [http://foodb.ca/]
-- FAO Stat [http://www.fao.org/faostat/en/?#data]
-- FDA - Food Composition Database - [https://ndb.nal.usda.gov/ndb/nutrients/index]
+- [FoodDB](http://foodb.ca/)
+- [FAO Stat](http://www.fao.org/faostat/en/?#data)
+- [FDA - Food Composition Database](https://ndb.nal.usda.gov/ndb/nutrients/index)
 - Recipe Books
 - Internet Recipes
-- Comtrade [https://comtrade.un.org/data/] (To be Included)
+- [Comtrade](https://comtrade.un.org/data/) (To be Included)
 
 ## DATABASE ARCHITECTURE
 
