@@ -22,7 +22,7 @@ These connections allow analysing factors like Cooking Techniques, Biology of Mo
 
 ## EXPLORING PROJECT's DATABASE
 
-If you want to explore the documentation of the database and the meaning of each field, please use the ShinyApp designed for that: http://mariplaza.shinyapps.io/dscooking_db_explorer (Coming Soon!)
+If you want to explore the documentation of the database and the meaning of each field, please use the ShinyApp designed for that: http://mariplaza.shinyapps.io/dscooking_db_explorer You could also use the data dictionary that is available in CSV format on this repository. 
 
 ## ACCESS TO PROJECT's DATABASE
 
