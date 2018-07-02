@@ -38,8 +38,8 @@ There are several previous experiences on the field (see resources), nonetheless
 
 For dealing with languages differences, 2 approaches are going to be considered:
 
-1.- Translation from the language to english. 
-2.- Direct training of the NLP models in the native language of the recipe. 
+1. Translation from the language to english. 
+2. Direct training of the NLP models in the native language of the recipe. 
 
 In order to have an accurate NLP each source is going to be treated like a class in Python and custom code would be developed to process the source with the higher possible accuracy. 
 
