@@ -57,7 +57,9 @@ Other Sources:
 
 - [Food Integrity Studio](http://www.foodintegritystudio.com/)
 - [Food Pairing](https://www.foodpairing.com/en/home)
+- [Gracipe](http://www.gracipe.com/)
 
 ### GitHub Repositories: 
 
 - [Flavor-Network](https://github.com/lingcheng99/Flavor-Network)
+- [KitchenPC](https://github.com/KitchenPC/core)
