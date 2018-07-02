@@ -37,6 +37,7 @@ There are several previous experiences on the field (see resources), nonetheless
 ## Approaches to deal with these challenges
 
 For dealing with languages differences, 2 approaches are going to be considered:
+
 1.- Translation from the language to english. 
 2.- Direct training of the NLP models in the native language of the recipe. 
 
