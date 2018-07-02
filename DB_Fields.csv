@@ -1,0 +1,254 @@
+﻿Table,Table_Source,Table_Description,Field,Description,Order
+_compound_enzyme,FooDB,Represents the relationship between compounds and enzymes.,ID_Comp_Enzyme,Represents the primary key for the table _compound_enzyme,1
+_compound_enzyme,FooDB,Represents the relationship between compounds and enzymes.,ID_Compound,Represents the link with the master_compound table,2
+_compound_enzyme,FooDB,Represents the relationship between compounds and enzymes.,ID_Enzyme,Represents the link with the master_enzyme table,3
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,ID_Comp_Ext_Ref,Represents the primary key for the table _compound_external_references,1
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,ID_Compound,Represents the link with the master_compound table,2
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,kegg_compound_id,"Represents the ID for the compound at KEGG: https://www.genome.jp/kegg/, more info at: https://en.wikipedia.org/wiki/KEGG",3
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,pubchem_compound_id,"Represents the ID for the compound at Pubchen: https://pubchem.ncbi.nlm.nih.gov/, more info at: https://en.wikipedia.org/wiki/PubChem",4
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,pubchem_substance_id,"Represents the ID for the substance at Pubchen: https://pubchem.ncbi.nlm.nih.gov/, more info at: https://en.wikipedia.org/wiki/PubChem",5
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,chebi_id,"Represents the ID for the compound at CHEBI: https://www.ebi.ac.uk/chebi/, more info at: https://en.wikipedia.org/wiki/ChEBI",6
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,het_id,Represents the ID for the compound at: http://www.wwpdb.org/data/ccd,7
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,uniprot_id,"Represents the ID for the compound at UniProt: http://www.uniprot.org/ , more info at: https://en.wikipedia.org/wiki/UniProt",8
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,uniprot_name,"Represents the ID for the compound at  UniProt: http://www.uniprot.org/, more info at: https://en.wikipedia.org/wiki/UniProt",9
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,genbank_id,"Represents the ID for the compound at Genbank: https://www.ncbi.nlm.nih.gov/genbank/?, more info at:  https://en.wikipedia.org/wiki/GenBank",10
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,wikipedia_id,Represents the ID for the compound at Wikipedia: https://en.wikipedia.org/wiki/Wikipedia,11
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,phenolexplorer_id,"Represents the ID for the compound at: http://phenol-explorer.eu/ , more info at: https://en.wikipedia.org/wiki/Phenol-Explorer",12
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,dfc_id,Represents the ID for the compound at the Dictionary Food Components: http://dfc.chemnetbase.com/faces/chemical/ChemicalSearch.xhtml,13
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,hmdb_id,"Represents the ID for the compound at: http://www.hmdb.ca/ , more info at: https://en.wikipedia.org/wiki/Human_Metabolome_Database",14
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,duke_id,Represents the ID for the compound at DUKE: https://phytochem.nal.usda.gov/phytochem/search,15
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,drugbank_id,"Represents the ID for the compound at Drugbank: https://www.drugbank.ca/ , more info at: https://en.wikipedia.org/wiki/DrugBank",16
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,bigg_id,Represents the ID for the compound at: http://bigg.ucsd.edu/,17
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,eafus_id,Represents the ID for the compound at Everything Added to Food in the United States (EAFUS): https://www.accessdata.fda.gov/scripts/fcn/fcnNavigation.cfm?rpt=eafusListing,18
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,knapsack_id,Represents the ID for the compound at: http://kanaya.naist.jp/KNApSAcK/,19
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,moldb_id,Represents the ID for the compound at http://merian.pch.univie.ac.at/~nhaider/cheminf/moldb6doc.html,20
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,old_dfc_id,Represents the old ID for the compound at data food dictionary  http://dfc.chemnetbase.com/faces/chemical/ChemicalSearch.xhtml,21
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,flavornet_id,Represents the ID for the compound at: http://www.flavornet.org/,22
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,goodscent_id,Represents the ID for the compound at: http://www.thegoodscentscompany.com/,23
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,superscent_id,"Represents the ID for the compound at: http://bioinf-applied.charite.de/superscent/ , more info at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2686498/",24
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,phenolexplorer_metabolite_id,Represents the ID for the compound at : http://phenol-explorer.eu/ ,25
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,chembl_id,"Represents the ID for the compound at: https://www.ebi.ac.uk/chembl/ , more info at: https://en.wikipedia.org/wiki/ChEMBL",26
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,chemspider_id,"Represents the ID for the compound at http://www.chemspider.com/ , more info at: https://en.wikipedia.org/wiki/ChemSpider",27
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,meta_cyc_id,"Represents the ID for the compound at https://metacyc.org/, more info at: https://en.wikipedia.org/wiki/MetaCyc",28
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,foodcomex,Represents the ID for the compound at FoodComex: http://foodcomex.org/,29
+_compound_external_references,FooDB,Represents the external references for diverse database of the compound,phytohub_id,Represents the ID for the compound at Pythohub: http://phytohub.eu/,30
+_compound_flavor,FooDB,Represents the relationship between compounds and flavors. ,ID_Comp_Flavor,Represents the primary key for the table _compound_flavor,1
+_compound_flavor,FooDB,Represents the relationship between compounds and flavors. ,ID_Compound,Represents the link with the master_compound table,2
+_compound_flavor,FooDB,Represents the relationship between compounds and flavors. ,ID_Flavor,Represents the link with the master_flavor table,3
+_compound_health_effect,FooDB,Represents the relationship between compound_healths and effects.,ID_Comp_HE,Represents the primary key for the table _compound_health_effect,1
+_compound_health_effect,FooDB,Represents the relationship between compound_healths and effects.,ID_Compound,Represents the link with the master_compound table,2
+_compound_health_effect,FooDB,Represents the relationship between compound_healths and effects.,ID_Health_Effect,Represents the link with the master_health_effect table,3
+_compound_properties,FooDB,Represents the properties of the compound,ID_Comp_Prop,Represents the primary key for the table _compound_properties,1
+_compound_properties,FooDB,Represents the properties of the compound,ID_Compound,Represents the link with the master_compound table,2
+_compound_properties,FooDB,Represents the properties of the compound,melting_point,Represents the melting point: https://en.wikipedia.org/wiki/Melting_point,3
+_compound_properties,FooDB,Represents the properties of the compound,melting_point_reference,Represents the melting point: https://en.wikipedia.org/wiki/Melting_point,4
+_compound_properties,FooDB,Represents the properties of the compound,uv_index,https://en.wikipedia.org/wiki/Ultraviolet_index,5
+_compound_properties,FooDB,Represents the properties of the compound,uv_index_reference,https://en.wikipedia.org/wiki/Ultraviolet_index,6
+_compound_properties,FooDB,Represents the properties of the compound,density,https://en.wikipedia.org/wiki/Density,7
+_compound_properties,FooDB,Represents the properties of the compound,density_reference,https://en.wikipedia.org/wiki/Density,8
+_compound_properties,FooDB,Represents the properties of the compound,optical_rotation,https://en.wikipedia.org/wiki/Optical_rotation,9
+_compound_properties,FooDB,Represents the properties of the compound,optical_rotation_reference,https://en.wikipedia.org/wiki/Optical_rotation,10
+_compound_properties,FooDB,Represents the properties of the compound,percent_composition,Represents the composition in percentage of the different elements in the chemical formula: https://en.wikipedia.org/wiki/Mass_fraction_(chemistry),11
+_compound_properties,FooDB,Represents the properties of the compound,percent_composition_reference,Represents the composition in percentage of the different elements in the chemical formula: https://en.wikipedia.org/wiki/Mass_fraction_(chemistry),12
+_compound_properties,FooDB,Represents the properties of the compound,physical_description,https://en.wikipedia.org/wiki/Chemical_compound,13
+_compound_properties,FooDB,Represents the properties of the compound,physical_description_reference,https://en.wikipedia.org/wiki/Chemical_compound,14
+_compound_properties,FooDB,Represents the properties of the compound,refractive_index,https://en.wikipedia.org/wiki/Refractive_index,15
+_compound_properties,FooDB,Represents the properties of the compound,refractive_index_reference,https://en.wikipedia.org/wiki/Refractive_index,16
+_compound_properties,FooDB,Represents the properties of the compound,experimental_pka,https://en.wikipedia.org/wiki/Acid_dissociation_constant,17
+_compound_properties,FooDB,Represents the properties of the compound,experimental_pka_reference,https://en.wikipedia.org/wiki/Acid_dissociation_constant,18
+_compound_properties,FooDB,Represents the properties of the compound,experimental_solubility,Represents the Solubility obtain with experiments https://en.wikipedia.org/wiki/Solubility,19
+_compound_properties,FooDB,Represents the properties of the compound,experimental_solubility_reference,https://en.wikipedia.org/wiki/Solubility,20
+_compound_properties,FooDB,Represents the properties of the compound,boiling_point,https://en.wikipedia.org/wiki/Boiling_point,21
+_compound_properties,FooDB,Represents the properties of the compound,boiling_point_reference,https://en.wikipedia.org/wiki/Boiling_point,22
+_compound_properties,FooDB,Represents the properties of the compound,charge,https://en.wikipedia.org/wiki/Charge_number,23
+_compound_properties,FooDB,Represents the properties of the compound,charge_reference,https://en.wikipedia.org/wiki/Charge_number,24
+_compound_properties,FooDB,Represents the properties of the compound,experimental_logp,Represents the logp obtain with experiments https://en.wikipedia.org/wiki/Partition_coefficient#Partition_coefficient_and_log_P,25
+_compound_properties,FooDB,Represents the properties of the compound,experimental_logp_reference,Represents the logp obtain with experiments https://en.wikipedia.org/wiki/Partition_coefficient#Partition_coefficient_and_log_P,26
+_compound_properties,FooDB,Represents the properties of the compound,hydrophobicity,https://en.wikipedia.org/wiki/Hydrophobe,27
+_compound_properties,FooDB,Represents the properties of the compound,hydrophobicity_reference,https://en.wikipedia.org/wiki/Hydrophobe,28
+_compound_properties,FooDB,Represents the properties of the compound,isoelectric_point,https://en.wikipedia.org/wiki/Isoelectric_point,29
+_compound_properties,FooDB,Represents the properties of the compound,isoelectric_point_reference,https://en.wikipedia.org/wiki/Isoelectric_point,30
+_compound_properties,FooDB,Represents the properties of the compound,moldb_alogps_logp,http://merian.pch.univie.ac.at/~nhaider/cheminf/moldb6.html,31
+_compound_properties,FooDB,Represents the properties of the compound,moldb_logp,http://merian.pch.univie.ac.at/~nhaider/cheminf/moldb6.html,32
+_compound_properties,FooDB,Represents the properties of the compound,moldb_alogps_logs,http://merian.pch.univie.ac.at/~nhaider/cheminf/moldb6.html,33
+_compound_properties,FooDB,Represents the properties of the compound,moldb_smiles,http://merian.pch.univie.ac.at/~nhaider/cheminf/moldb6.html,34
+_compound_properties,FooDB,Represents the properties of the compound,moldb_pka,http://merian.pch.univie.ac.at/~nhaider/cheminf/moldb6.html,35
+_compound_properties,FooDB,Represents the properties of the compound,moldb_formula,http://merian.pch.univie.ac.at/~nhaider/cheminf/moldb6.html,36
+_compound_properties,FooDB,Represents the properties of the compound,moldb_average_mass,http://merian.pch.univie.ac.at/~nhaider/cheminf/moldb6.html,37
+_compound_properties,FooDB,Represents the properties of the compound,moldb_inchi,http://merian.pch.univie.ac.at/~nhaider/cheminf/moldb6.html,38
+_compound_properties,FooDB,Represents the properties of the compound,moldb_mono_mass,http://merian.pch.univie.ac.at/~nhaider/cheminf/moldb6.html,39
+_compound_properties,FooDB,Represents the properties of the compound,moldb_inchikey,http://merian.pch.univie.ac.at/~nhaider/cheminf/moldb6.html,40
+_compound_properties,FooDB,Represents the properties of the compound,moldb_alogps_solubility,http://merian.pch.univie.ac.at/~nhaider/cheminf/moldb6.html,41
+_compound_properties,FooDB,Represents the properties of the compound,moldb_iupac,http://merian.pch.univie.ac.at/~nhaider/cheminf/moldb6.html,42
+_compound_substitute,FooDB,Represents the relationship between compounds and substitutes.,ID_Comp_Substitute,Represents the primary key for the table _compound_substitute,1
+_compound_substitute,FooDB,Represents the relationship between compounds and substitutes.,ID_Compound,Represents the link with the master_compound table,2
+_compound_substitute,FooDB,Represents the relationship between compounds and substitutes.,Substituent_Name,Represents the name of substituent,3
+_FAO_currency_exchange_rate,FAO,Represents the exchange rate of the local currency with USD per year,ID_FAO_Cur_ER,Represents the primary key for the table _FAO_currency_exchange_rate,1
+_FAO_currency_exchange_rate,FAO,Represents the exchange rate of the local currency with USD per year,FAO_Country_ID,Represents the link with the master_country table,2
+_FAO_currency_exchange_rate,FAO,Represents the exchange rate of the local currency with USD per year,ID_Currency,Represents the link with the master_currency table,3
+_FAO_currency_exchange_rate,FAO,Represents the exchange rate of the local currency with USD per year,Exchange_Date,Represents the date (year) for the specific exchange rate,4
+_FAO_currency_exchange_rate,FAO,Represents the exchange rate of the local currency with USD per year,Exchange_Rate,Represents the exchange rate between the local currency and USD,5
+_FAO_mkt_index,FAO,Represents the FAO Index for ingredients. It is detailed by country and date to calculate seasonality adjustments.,ID_FAO_Mkt_Index,Represents the primary key for the table _FAO_mkt_index,1
+_FAO_mkt_index,FAO,Represents the FAO Index for ingredients. It is detailed by country and date to calculate seasonality adjustments.,FAO_Item_Code,Represents the code for the ingredient at the FAO. It also represents the link with the table master_ingredient,2
+_FAO_mkt_index,FAO,Represents the FAO Index for ingredients. It is detailed by country and date to calculate seasonality adjustments.,FAO_Country_ID,Represents the link with the table master_country,3
+_FAO_mkt_index,FAO,Represents the FAO Index for ingredients. It is detailed by country and date to calculate seasonality adjustments.,Index_Date,Represents the date for the specific index,4
+_FAO_mkt_index,FAO,Represents the FAO Index for ingredients. It is detailed by country and date to calculate seasonality adjustments.,FAO_Index_Price,"Represents the price on the given date, country and item. The unit of this number is defined by the field ID_Currency",5
+_FAO_mkt_index,FAO,Represents the FAO Index for ingredients. It is detailed by country and date to calculate seasonality adjustments.,ID_Currency,Represents the link with the table master_currency,6
+_FAO_mkt_index,FAO,Represents the FAO Index for ingredients. It is detailed by country and date to calculate seasonality adjustments.,Monthly_Base,"Represents the seasonality of the index, 1 if it is monthly and 0 if it is yearly. ",7
+_ingredient_compound,#N/A,#N/A,ID_Ing_Comp,Represents the primary key for the table _ingredient_compund,1
+_ingredient_compound,#N/A,#N/A,ID_Compound,Represents the link with the master_compound table,2
+_ingredient_compound,#N/A,#N/A,ID_Ingredient,Represents the link with the master_ingredient table,3
+_ingredient_compound,#N/A,#N/A,Content_Min,Represents the minimun content of this compound on 100 grams of this ingredient,4
+_ingredient_compound,#N/A,#N/A,Content_Max,Represents the maximun content of this compound on 100 grams of this ingredient,5
+_ingredient_compound,#N/A,#N/A,ID_Unit,Represents the link with the master_unit table,6
+_ingredient_compound,#N/A,#N/A,Content_Standard,Represents the standard content of this compound on 100 grams of this ingredient,7
+_ingredient_cost,Own,Represents the cost in time across provider of different ingredients. ,ID_Ing_Cost,Represents the primary key for the Table that relates ingredients with its cost. ,1
+_ingredient_cost,Own,Represents the cost in time across provider of different ingredients. ,ID_Ingredient,Represents the link with the master_ingredient table,2
+_ingredient_cost,Own,Represents the cost in time across provider of different ingredients. ,ID_Suppplier,Represents the link with the master_supplier table,3
+_ingredient_cost,Own,Represents the cost in time across provider of different ingredients. ,Cost_Date,Represents the date when the purchased was made. ,4
+_ingredient_cost,Own,Represents the cost in time across provider of different ingredients. ,Cost_Ingredient,Represents the total cost for the ingredient. ,5
+_ingredient_cost,Own,Represents the cost in time across provider of different ingredients. ,ID_Currency,Represents the link with the master_currency table,6
+_ingredient_cost,Own,Represents the cost in time across provider of different ingredients. ,Quantity_Ingredient,Represents the amount of the ingredient purchased. ,7
+_ingredient_cost,Own,Represents the cost in time across provider of different ingredients. ,ID_Unit,Represents the link with the master_unit table,8
+_ingredient_cost,Own,Represents the cost in time across provider of different ingredients. ,Cost_Tax_Percentage,Represents the percentage of tax that is included for this item. ,9
+_ingredient_food,Own,Represents the link between the food and the ingredients. ,ID_Ing_Food,Represents the primary key for the table _ingredient_food,1
+_ingredient_food,Own,Represents the link between the food and the ingredients. ,ID_Ingredient,Represents the link with the master_ingredient table,2
+_ingredient_food,Own,Represents the link between the food and the ingredients. ,ID_Food,Represents the link with the master_food table,3
+_ingredient_nutrient,"USDA, Nutritiondata.self",Represents the relationship between ingredient and its nutrients. The table include the amount of each nutrient per 100 grams of ingredient. ,ID_Ing_Nut,Represents the primary key for the table ingredient_nutrient,1
+_ingredient_nutrient,"USDA, Nutritiondata.self",Represents the relationship between ingredient and its nutrients. The table include the amount of each nutrient per 100 grams of ingredient. ,ID_Ingredient,Represents the link with the master_ingredient table,2
+_ingredient_nutrient,"USDA, Nutritiondata.self",Represents the relationship between ingredient and its nutrients. The table include the amount of each nutrient per 100 grams of ingredient. ,ID_Nutrient,Represents the link with the master_nutrient table,3
+_ingredient_nutrient,"USDA, Nutritiondata.self",Represents the relationship between ingredient and its nutrients. The table include the amount of each nutrient per 100 grams of ingredient. ,Quantity,Represents the amount of the given nutrient in 100 grams of the specified ingredient. The unit base for this quantity correspond to the standard unit for the nutrient documented in its master. ,4
+_recipe_country,Cooking books,Represents the relationship between a recipe and its countries ,ID_Recipe_Country,Represents the primary key for the table _recipe_country,1
+_recipe_country,Cooking books,Represents the relationship between a recipe and its countries ,ID_Recipe,Represents the link with the master_recipe table,2
+_recipe_country,Cooking books,Represents the relationship between a recipe and its countries ,ID_Country,Represents the link with the master_country table,3
+_recipe_country,Cooking books,Represents the relationship between a recipe and its countries ,Role,"Represents the role that this recipe plays in the specifc country: Main, Secondary, Exotic",4
+_recipe_ingredient,Cooking books,Represents the relationship between a recipe and its ingredients. It includes the ingredients quantities according to the number of proportions stated in master_recipe,ID_Rec_Ing,Represents the primary key for the table _recipe_ingredient,1
+_recipe_ingredient,Cooking books,Represents the relationship between a recipe and its ingredients. It includes the ingredients quantities according to the number of proportions stated in master_recipe,ID_Recipe,Represents the link with the master_recipe table,2
+_recipe_ingredient,Cooking books,Represents the relationship between a recipe and its ingredients. It includes the ingredients quantities according to the number of proportions stated in master_recipe,ID_Ingredient,Represents the link with the master_ingredient table,3
+_recipe_ingredient,Cooking books,Represents the relationship between a recipe and its ingredients. It includes the ingredients quantities according to the number of proportions stated in master_recipe,Quantity,Represents the amount of the ingredient for the specified recipe. This amount should correspond to the given unit and it should be for all portions stated in the master_recipe. That means transcribe exactly as the original source. ,4
+_recipe_ingredient,Cooking books,Represents the relationship between a recipe and its ingredients. It includes the ingredients quantities according to the number of proportions stated in master_recipe,ID_Unit,Represents the link with the master_unit table,5
+_recipe_ingredient,Cooking books,Represents the relationship between a recipe and its ingredients. It includes the ingredients quantities according to the number of proportions stated in master_recipe,Waste,Represents the % of waste expected for this ingredient on this recipe,6
+_recipe_menu,Users,Represents the relationship between a menu and its recipes. It includes number of portions of a recipe into the menu. ,ID_Rec_Men,Represents the primary key for the table _recipe_menu,1
+_recipe_menu,Users,Represents the relationship between a menu and its recipes. It includes number of portions of a recipe into the menu. ,ID_Menu,Represents the link with the master_menu table,2
+_recipe_menu,Users,Represents the relationship between a menu and its recipes. It includes number of portions of a recipe into the menu. ,ID_Recipe,Represents the link with the master_recipe table,3
+_recipe_menu,Users,Represents the relationship between a menu and its recipes. It includes number of portions of a recipe into the menu. ,Dish,"Represents a short description of the role of the dish, for example: Lunch, Breakfast, Snack, Dinner",4
+_recipe_menu,Users,Represents the relationship between a menu and its recipes. It includes number of portions of a recipe into the menu. ,Portions,Represents the numbers of portions of the given recipe that the person would eat on this menu. ,5
+_recipe_related_recipe,Own,Represents the relationship between modified recipes and the original ones. ,ID_Rec_Rel_Rec,Represents the primary ley for the table _recipe_related_recipe,1
+_recipe_related_recipe,Own,Represents the relationship between modified recipes and the original ones. ,ID_Recipe,Represents the ID of the modified recipe.  It connects with the table master_recipe. ,2
+_recipe_related_recipe,Own,Represents the relationship between modified recipes and the original ones. ,ID_Recipe_Original,Represents the ID of the original recipe. It connects with the table master_recipe. ,3
+_recipe_step_ingredient,Own,Represents the match between the ingredients and the steps in the recipe (with its associated technique). ,ID_Ingredient,Represents the link with the master_ingredient table,3
+_recipe_step_ingredient,Own,Represents the match between the ingredients and the steps in the recipe (with its associated technique). ,ID_Rec_Step,Represents the link with the _recipe_step_tech,
+_recipe_step_ingredient,Own,Represents the match between the ingredients and the steps in the recipe (with its associated technique). ,ID_Rec_Step_Ing,Represents the primary key for the table _recipe_step_ingredient,
+_recipe_step_tech,Cooking books,Represents the steps and the techniques used in a recipe. ,ID_Rec_Step,Represents the primary key for the table _recipe_step_tech,1
+_recipe_step_tech,Cooking books,Represents the steps and the techniques used in a recipe. ,ID_Recipe,Represents the link with the master_recipe table,2
+_recipe_step_tech,Cooking books,Represents the steps and the techniques used in a recipe. ,Step,Represents the step order for this recipe,3
+_recipe_step_tech,Cooking books,Represents the steps and the techniques used in a recipe. ,ID_Technique,Represents the link with the master_technique table,4
+_recipe_step_tech,Cooking books,Represents the steps and the techniques used in a recipe. ,Time_Min,Represents how many minutes are required at this step,5
+_recipe_step_tech,Cooking books,Represents the steps and the techniques used in a recipe. ,description,Represents the description of the step in its original language,6
+_recipe_tech_ingredient,#N/A,#N/A,ID_Rec_Step_Ing,Represents the primary key for the table _recipe_tech_ingredient,1
+_recipe_tech_ingredient,#N/A,#N/A,ID_Rec_Step,Represents the link with the _recipe_step_tech table,2
+_technique_nutrient,Nutritiondata.self,Represents the effect of a cooking technique over the nutrient contents. ,ID_Tech_Nut,Represents the primary key for the table _technique_nutrient,1
+_technique_nutrient,Nutritiondata.self,Represents the effect of a cooking technique over the nutrient contents. ,ID_Technique,Represents the link with the master_technique table,2
+_technique_nutrient,Nutritiondata.self,Represents the effect of a cooking technique over the nutrient contents. ,ID_Nutrient,Represents the link with the master_nutrient table,3
+_technique_nutrient,Nutritiondata.self,Represents the effect of a cooking technique over the nutrient contents. ,Technique_Nut_Effect,Represents the percentage loss of the nutrient when this technique is used. ,4
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,ID_Compound,Represents the primary key for the table master_compound,1
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,Compound_Name,Represents the name of the compound in English,2
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,Compound_Public_ID,Represents the Public ID for the compound,3
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,Compound_Description,Represents the description of the compound in English,4
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,Compound_State,"Represents the state (liquid, solid, gas) of the compound at normal conditions. ",5
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,Compound_CAS_Number,Represents the ID at the Chemical Abstract Services (CAS),6
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,Compound_dfc_name,Represents the name of the compound at the Dictionary of Food Compounds http://dfc.chemnetbase.com/faces/chemical/ChemicalSearch.xhtml,7
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,Compound_msds_file_name,Represents the name of the file at the Material Safety Data Sheet (MSDS),8
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,Compound_Kingdom,Represents the kingdom of the compound,9
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,Compound_Superklass,Represents the superklass of the compound,10
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,Compound_Klass,Represents the klass of the compound,11
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,Compound_Subklass,Represents the subklass of the compound. ,12
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,Compound_Direct_Parent,Represents the direct parent of the specific compound,13
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,Compound_Molecular_Framework,"Represents the molecular framework, for more reference: https://en.wikipedia.org/wiki/Covalent_organic_framework",14
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,Compound_Protein_Formula,"Represents the Chemical Formula	",15
+master_compound,FooDB,Represents the master of all compounds. These elements are the small molecule level that are part of the chemical structure for ingredients. ,Compound_Protein_Weight,"Represents the Average Molecular Weight	",16
+master_country,Comtrade,"Represents the master of countries according to comtrade. It serves to map recipes, ingredients and costs to a specific country. ",ID_Country,Represents the primary key for the table master_country. It is completely aligned with the COMTRADE country code,1
+master_country,Comtrade,"Represents the master of countries according to comtrade. It serves to map recipes, ingredients and costs to a specific country. ",Country_Name,Represents the name of the country in English. ,2
+master_country,Comtrade,"Represents the master of countries according to comtrade. It serves to map recipes, ingredients and costs to a specific country. ",Country_Region,Represents the name of the region where the country is located. It is aligned with the UN taxonomy. ,3
+master_country,Comtrade,"Represents the master of countries according to comtrade. It serves to map recipes, ingredients and costs to a specific country. ",Country_SubRegion,Represents the name of the subregion where the country is located. It is aligned with the UN taxonomy. ,4
+master_country,Comtrade,"Represents the master of countries according to comtrade. It serves to map recipes, ingredients and costs to a specific country. ",FAO_Country_ID,Represents the country ID in the FAO Stats database,5
+master_currency,Own,Represents the master of currrencies. ,ID_Currency,Represents the primary key for the table master_currrency,1
+master_currency,Own,Represents the master of currrencies. ,Currency_Name,Represents the currency name,2
+master_currency,Own,Represents the master of currrencies. ,Currency_Symbol,Represents the currency symbol,3
+master_enzyme,FooDB,Represents the master for the enzymes. ,ID_Enzyme,Represents the primary key for the table master_enzyme,1
+master_enzyme,FooDB,Represents the master for the enzymes. ,Enzyme_Name,Represents the name of the enzyme.,2
+master_enzyme,FooDB,Represents the master for the enzymes. ,Gene_Name,Represents the code of the human gene where this enzyme is encoded. ,3
+master_enzyme,FooDB,Represents the master for the enzymes. ,Uniprot_ID,Represents the ID in the database Uniprot (https://www.uniprot.org/) for this enzyme. ,4
+master_FAO_item_code,FAO,Represents the master for the Item codes at FAO Stats,FAO_Item_Code,Represents the master for the Item codes at FAO Stats,1
+master_FAO_item_code,FAO,Represents the master for the Item codes at FAO Stats,FAO_Item_Name,Represents the primary key for the table master_FAO_item_code,2
+master_flavor,FooDB,Represents the master for all possible flavors. ,ID_Flavor,Represents the primary key for the table master_flavor,1
+master_flavor,FooDB,Represents the master for all possible flavors. ,Flavor_Name,Represents the name of the flavor in english as it is known in common culture,2
+master_flavor,FooDB,Represents the master for all possible flavors. ,Flavor_Group,Represents the group for the flavors. Normally these groups are represented in the wheel of flavors,3
+master_flavor,FooDB,Represents the master for all possible flavors. ,Flavor_Category,Represents the category of flavors. ,4
+master_food,FooDB,Represents the food lists in the FooDB ,ID_Food,Represents the primary key for the table master_food,1
+master_food,FooDB,Represents the food lists in the FooDB ,Food_Name,Represents the standard name for the food in English,2
+master_food,FooDB,Represents the food lists in the FooDB ,Food_Scientific_Name,Represents the scientific name of the ingredient. ,3
+master_food,FooDB,Represents the food lists in the FooDB ,Food_Description,Represents the description in English of this ingredient,4
+master_food,FooDB,Represents the food lists in the FooDB ,Food_Type,Represents if the ingredient is a processed ingredient or natural one. ,5
+master_food,FooDB,Represents the food lists in the FooDB ,Food_Group,"Represents the group of the ingredient. For example: Vegetables, fruits, ",6
+master_food,FooDB,Represents the food lists in the FooDB ,Food_Subgroup,Represents more detail under the group taxonomy,7
+master_food,FooDB,Represents the food lists in the FooDB ,ID_ITIS,Represents the ID of the ingredient in the Integrated Taxonomic Information System (ITIS),16
+master_food,FooDB,Represents the food lists in the FooDB ,ID_Wikipedia,Represents the name in english for the wikipedia article for this ingredient. ,17
+master_food,FooDB,Represents the food lists in the FooDB ,ID_Wikidata,Represents the item ID in Wikidata to allow semantic queries on it. ,18
+master_food,FooDB,Represents the food lists in the FooDB ,ID_NCBI_Taxonomy,Represents the ID into the National Center for Biotechnology Information Taxonomy Database ,19
+master_health_effect,FooDB,Represents the master for the different heatlh effects. ,ID_Health_Effect,Represents the primary key for the table master_health_effect,1
+master_health_effect,FooDB,Represents the master for the different heatlh effects. ,Health_Effect_Name,Represents the Health Effect Name in the scientific community,2
+master_health_effect,FooDB,Represents the master for the different heatlh effects. ,Health_Effect_Description,Represents the description of the Health effect in the scientific community,3
+master_health_effect,FooDB,Represents the master for the different heatlh effects. ,HE_Chebi_Name,Represents the official name given by the Chemical Entities of Biological Interest (chebi),4
+master_health_effect,FooDB,Represents the master for the different heatlh effects. ,HE_Chebi_ID,Represents the official ID given by the Chemical Entities of Biological Interest (chebi),5
+master_health_effect,FooDB,Represents the master for the different heatlh effects. ,HE_Chebi_Definition,Represents the official definition given by the Chemical Entities of Biological Interest (chebi),6
+master_ingredient,Mixed,Represents the master for the ingredients,ID_Ingredient,Represents the primary key for the table master_ingredient,1
+master_ingredient,Mixed,Represents the master for the ingredients,Ingredient_Name,Represents the name of the ingredient in English,2
+master_ingredient,Mixed,Represents the master for the ingredients,Ingredient_Comment,Represents any relevant comment about the ingredient,8
+master_ingredient,Mixed,Represents the master for the ingredients,R_Cup,Represents the relationship between 100 grams of this ingredient and 1 Cup. ,9
+master_ingredient,Mixed,Represents the master for the ingredients,R_Unit,Represents the relationship between 100 grams of this ingredient and 1 Unit,10
+master_ingredient,Mixed,Represents the master for the ingredients,R_Spoon,Represents the relationship between 100 grams of this ingredient and 1 Table Spoon. ,11
+master_ingredient,Mixed,Represents the master for the ingredients,R_Liter,Represents the relationship between 100 grams of this ingredient and 1 Liter. ,12
+master_ingredient,Mixed,Represents the master for the ingredients,Ingredient_Icon_Reference,Represents the icon to be used as reference in the web App. ,13
+master_ingredient,Mixed,Represents the master for the ingredients,FAO_Item_Code,Represents the code for the ingredient at the FAO.,14
+master_ingredient,Mixed,Represents the master for the ingredients,FAO_Index_Factor,"Represents the factor to multiply the FAO Index with its correlative FAO Code. If the ingredient exists in FAO Code it should be 1, otherwise it would be a factor depending on the most close FAO Code. ",15
+master_language,Own,Represents the master of languages to allow in the future multilanguage applications. ,ID_Language,Represents the primary key for the table master_language,1
+master_language,Own,Represents the master of languages to allow in the future multilanguage applications. ,Language_Name,Represents the name of the language in English,2
+master_menu,Own,Represents the master of menus. ,ID_Menu,Represents the primary key for the table master_menu,1
+master_menu,Own,Represents the master of menus. ,Menu_Name,Represents the name of the menu in its original language,2
+master_menu,Own,Represents the master of menus. ,Menu_Category,"Represents the category of the menu. Complete for all dishes, incomplete for partial dishes and test. ",3
+master_menu,Own,Represents the master of menus. ,Menu_Objective,"Represents the objective of the menu. Maximum nutrition, weight loss, gain loss, training and so on. ",4
+master_menu,Own,Represents the master of menus. ,Menu_Comments,Represents the comments to annotate any additional information regarding the menu,5
+master_nutrient,USDA,Represents the master of nutrients ,ID_Nutrient,Represents the primary key for the table master_nutrient,1
+master_nutrient,USDA,Represents the master of nutrients ,Nutrient_Name,Represents the name in English for the nutrient,2
+master_nutrient,USDA,Represents the master of nutrients ,Nutrient_Category,"Represents the category in English for the nutrient clasifying in Protein, Carbs, Fats, Vitamins and Minerals. ",3
+master_nutrient,USDA,Represents the master of nutrients ,Nutrient_Subcategory,Represents the subcategory in English for the nutrient giving additional information into the Category,4
+master_nutrient,USDA,Represents the master of nutrients ,ID_Unit,Represents the link with the master_unit table,5
+master_nutrient,USDA,Represents the master of nutrients ,Nutrient_RFDA,Represents the Recommend Dairy Intake for this nutrient according to the nutrient,6
+master_nutrient,USDA,Represents the master of nutrients ,Nutrient_Toxic_Level,Represents the level where the nutrient could turn toxic. ,7
+master_nutrient,USDA,Represents the master of nutrients ,Nutrient_Calories,Represents the calories per gram that this nutrient provides. ,8
+master_nutrient,USDA,Represents the master of nutrients ,Nutrient_AminoAcid_Score,"Represents an indicator if this nutrient is part of the Amino Acid Score.  0 if no, 1 if yes. ",9
+master_nutrient,USDA,Represents the master of nutrients ,Nutrient_Complete_Score,"Represents an indicator if this nutrient is part of the Complete Score.  0 if no, 1 if yes. ",10
+master_nutrient,USDA,Represents the master of nutrients ,Nutrient_Satiety,"Represents an indicator if this nutrient is part of the Satiety calculation.  0 if no, 1 if yes. ",11
+master_nutrient,USDA,Represents the master of nutrients ,Nutrient_Mol_Weight,Represents the molecular weight for this nutrient,12
+master_recipe,Own,Represents the master of the recipes stored in the database,ID_Recipe,Represents the  primary key for the table master_recipe,1
+master_recipe,Own,Represents the master of the recipes stored in the database,Recipe_Name,Represents the name of the recipe in English,2
+master_recipe,Own,Represents the master of the recipes stored in the database,Recipe_Original_Name,Represents the name of the recipe in its original language,3
+master_recipe,Own,Represents the master of the recipes stored in the database,Recipe_Category,"Represents the category of the recipe. For example: Dessert, Soup, Salad, Main Dish, Entrance, Breakfast",4
+master_recipe,Own,Represents the master of the recipes stored in the database,Recipe_Portions,Represents the numbers of portions that the recipe could provide  with the given ingredients list. ,5
+master_recipe,Own,Represents the master of the recipes stored in the database,ID_Source,Represents the link with the master_source table,6
+master_recipe,Own,Represents the master of the recipes stored in the database,Recipe_Page,Represents the number of the page where you could find this recipe on the source. ,7
+master_recipe,Own,Represents the master of the recipes stored in the database,Recipe_Link,Represents the link (if available) for the specific recipe,8
+master_recipe,Own,Represents the master of the recipes stored in the database,Recipe_Notes,Represents the notes for the recipe,9
+master_source,Own,"Represents the master for the recipe sources, it could be cooking books, own references or the web.",ID_Source,Represents the primary key for the table master_source,1
+master_source,Own,"Represents the master for the recipe sources, it could be cooking books, own references or the web.",Source_Name,Represents the name of the source in its original language. ,2
+master_source,Own,"Represents the master for the recipe sources, it could be cooking books, own references or the web.",Source_Link,Represents the online link (if available) for the source,3
+master_supplier,Own,Represents the master for the supplier of the ingredients. It allows to track real costs for the ingredients. ,ID_Suppplier,Represents the primary key for the table master_supplier,1
+master_supplier,Own,Represents the master for the supplier of the ingredients. It allows to track real costs for the ingredients. ,Supplier_Name,"Represents the name of the supplier as it is. If a supplier is in several countries, there should be a record for each supplier-country combination. ",2
+master_supplier,Own,Represents the master for the supplier of the ingredients. It allows to track real costs for the ingredients. ,ID_Country,Represents the link with the table master_country. It is related with the country where the supplier sells its products. ,3
+master_technique,Own,Represents the master for the listed cooking techniques,ID_Technique,Represents the primary key for the table master_technique,1
+master_technique,Own,Represents the master for the listed cooking techniques,Technique_Name,Represents the name of the technique in english,2
+master_technique,Own,Represents the master for the listed cooking techniques,Technique_Link_Symbol,Represents the name of the symbol that represents this technique into the web app,3
+master_technique,Own,Represents the master for the listed cooking techniques,Effective_Time,"Represents if it requires an effective time from the person that is cooking or it is waiting time. If it is waiting time the field would be 0, otherwise 1. ",4
+master_unit,Own,Represents the master for the units typically use during the cooking process,ID_Unit,Represents the primary key for the table master_unit,1
+master_unit,Own,Represents the master for the units typically use during the cooking process,Unit_Name,Represents the name for the cooking unit. It is described in English,2
